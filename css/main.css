@@ -50,7 +50,7 @@ h1 {
   line-height: 0.8em;
 }
 
-h1 {
+h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
@@ -93,7 +93,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: #0C0C0C;
 }
 
 .social-icon {
@@ -118,15 +118,15 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+  background-color: #D9D9D9;
+  color: #ff8300;
 }
 
 #gallery li a p{
   margin: 0;
-  padding: 5%
+  padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #0C0C0C;
 }
 
 
@@ -162,6 +162,7 @@ PAGE: CONTACT
   background-size: 20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+  color: #00cccc;
 }
 
 .contact-info li.phone a{
@@ -182,19 +183,20 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: #D9D9D9;
+  color: #0C0C0C;
 }
 
-/* green header*/
+/* purple header*/
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #2E0854;
+  border-style: solid;
+  border-color: #00cccc;
 }
 
 /* nav background on mobile*/
 nav {
-  background: #599a68;
+  background: #D9D9D9;
 }
 
 /* logo text */
@@ -214,5 +216,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #00cccc;
 }
